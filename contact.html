@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Luna Martin</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="page-header contact-header">
+    <nav class="navbar navbar-dark">
+      <a href="index.html" class="logo">Luna Martin</a>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="page-title">
+      <p class="eyebrow">Contact</p>
+      <h1>Parlons de votre projet photo.</h1>
+      <p>Portrait, mariage, marque ou projet éditorial : décrivez votre besoin en quelques mots.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="section contact-section">
+      <div class="contact-info">
+        <p class="eyebrow">Réservation</p>
+        <h2>Une demande claire, une réponse personnalisée.</h2>
+        <p>
+          Merci d’indiquer le type de séance souhaitée, la date envisagée, le lieu
+          et toute information utile pour préparer un premier échange.
+        </p>
+
+        <ul class="contact-list">
+          <li><strong>Email :</strong> contact@lunamartin-photo.fr</li>
+          <li><strong>Téléphone :</strong> +33 6 12 34 56 78</li>
+          <li><strong>Studio :</strong> Paris, France</li>
+        </ul>
+      </div>
+
+      <form class="contact-form" action="#" method="post">
+        <div class="form-group">
+          <label for="name">Nom complet</label>
+          <input type="text" id="name" name="name" placeholder="Votre nom" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Adresse email</label>
+          <input type="email" id="email" name="email" placeholder="vous@email.com" required />
+        </div>
+
+        <div class="form-group">
+          <label for="project">Type de projet</label>
+          <select id="project" name="project" required>
+            <option value="">Sélectionner une option</option>
+            <option value="portrait">Portrait professionnel</option>
+            <option value="mariage">Mariage</option>
+            <option value="marque">Marque / éditorial</option>
+            <option value="autre">Autre demande</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Décrivez votre projet..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Envoyer la demande</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Luna Martin — Photographe professionnelle</p>
+    <p>Paris · Portrait · Mariage · Éditorial</p>
+  </footer>
+</body>
+</html>
